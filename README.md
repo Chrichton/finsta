@@ -4,6 +4,8 @@
 
 - mix archive.install hex phx_new
 - mix phx.new finsta
+- mix phx.gen.auth Accounts User users
+-
 
 To start your Phoenix server:
 
