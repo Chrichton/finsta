@@ -5,7 +5,7 @@
 - mix archive.install hex phx_new
 - mix phx.new finsta
 - mix phx.gen.auth Accounts User users
--
+- mix phx.gen.schema Posts.Post posts caption:text image_path:string user_id:references:users
 
 #Learned
 
