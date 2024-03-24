@@ -7,6 +7,13 @@
 - mix phx.gen.auth Accounts User users
 -
 
+#Learned
+
+- ~p"" -> Phoenix.VerifiedRoutes.sigil_p(
+  route,
+  extra
+  )
+
 To start your Phoenix server:
 
 - Run `mix setup` to install and setup dependencies
