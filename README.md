@@ -14,6 +14,11 @@
   extra
   )
 
+  - push_patch, push_navigate -> to close the modal
+  - put_flash(:info, "") -> show message on client
+  - def static_paths for the assets
+  - @impl Phoenix.LiveView -> instead of @impl true
+
 To start your Phoenix server:
 
 - Run `mix setup` to install and setup dependencies
